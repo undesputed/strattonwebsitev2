@@ -1,0 +1,34 @@
+.contactHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+    height: 40px;
+    background: #043439;
+    color: white;
+    text-align: right;
+
+    .main-content{
+        padding: 5px 20px;
+    }
+
+    span{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .call-section {
+        padding: 0 15px;
+    }
+
+    .search-section{
+        padding: 0 15px;
+    }
+    
+    img{
+        height: 30px;
+        width: 30px;
+    }
+    .cart-section {
+        padding: 0 15px;
+    }
+}

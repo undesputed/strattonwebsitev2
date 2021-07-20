@@ -1,0 +1,55 @@
+.banner-section {
+    background: #badfcd;
+    width: 100%;
+
+    .tagline-section {
+        width: 50%;
+        display: inline-block;
+
+        .tagline-body {
+            margin-top: 20px;
+            position: relative;
+
+            .tagline {
+                font-size: 8rem;
+                font-weight: 900;
+                display: block;
+                text-align: left ;
+                line-height: 0.7;
+                padding: 0 70px;
+                margin-top: 70px;
+            }
+
+            .tagline-content {
+                font-size: 20px;
+                display: block;
+                padding: 0 70px;
+                text-align: justify;
+            }
+
+            .what {
+                color: #fff;
+                display: block;
+                font-family: "NexaSlabW01-Black";
+                z-index: 1;
+            }
+
+            .story {
+                color: #dfa883;
+                font-family: "NexaSlabW01-Black";
+                z-index: 2;
+                font-size: 10rem;
+            }
+        }
+    }
+
+    .banner-image {
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+
+        img {
+            width: 101.3%;
+        }
+    }
+}

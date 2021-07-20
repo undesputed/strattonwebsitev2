@@ -1,0 +1,143 @@
+.spotlight {
+    padding: 5rem 1rem;
+    background: #fefbea;
+
+    button {
+        border-radius: 10px;
+        border: 2px solid gray;
+    }
+
+    .spotlight-heading {
+        text-transform: uppercase;
+        font-size: 20px;
+        padding-bottom: 2rem;
+    }
+
+    .spotlight-label {
+        color: #dfa883;
+        font-size: 5rem !important;
+    }
+
+    /* .row{
+      border: solid 2px black;
+    }
+    
+    .row .col{
+      border: solid 2px black;
+    } */
+
+    .author-image img {
+        border: 3px solid rgb(112, 112, 112);
+    }
+
+    .author-content {
+        height: 300px;
+        padding: 20px;
+    }
+
+    .author-content h1 {
+        font-size: 40px;
+        color: #55B4A6;
+        font-style: italic;
+        padding: 10px 0;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+    .author-content p {
+        font-size: 20px;
+        font-style: italic;
+        text-align: justify;
+        color: #55B4A6
+    }
+
+    .author-book label span {
+        font-size: 25px;
+        font-weight: bolder;
+        padding: 0 50px;
+    }
+
+    .author-book button {
+        font-size: 20px;
+    }
+
+    .author-book .row .col-6 {
+        padding: 10px 25px;
+    }
+
+    .author-book .row img {
+        border: solid 1px #55B4A6;
+    }
+
+    .author-book .author-website button {
+        width: 100%;
+        padding: 10px;
+        margin-top: 15px;
+        background: #78a48d;
+        color: white;
+    }
+
+    /* .author-content{
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      font-size: 20px;
+      font-weight: 300;
+      text-align: justify;
+      width: 100%;
+    } */
+
+    .videos-part {
+        padding: 0;
+        margin: 0;
+    }
+
+    .videos-part .radio-int iframe {
+        padding: 10px 0;
+    }
+
+    .videos-part .book-trailer iframe {
+        padding: 10px 0;
+    }
+
+    .videos-part .book-trailer p {
+        font-weight: bolder;
+        font-size: 17px;
+    }
+
+    .videos-part .radio-int p {
+        font-weight: bolder;
+        font-size: 17px;
+    }
+
+    .videos-part .radio-int button {
+        padding: 10px;
+        width: 100%;
+        font-size: 17px;
+        margin-top: auto;
+        color: white;
+        background: #78a48d;
+    }
+
+    .radio-int {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .book-trailer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .videos-part .book-trailer button {
+        padding: 10px;
+        width: 100%;
+        font-size: 17px;
+        margin-top: auto;
+        color: white;
+        background: #78a48d;
+    }
+}

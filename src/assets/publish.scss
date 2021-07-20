@@ -1,0 +1,38 @@
+.publishing-section {
+  background: #5d7c6b;
+  height: 200px;
+  width: 100%;
+
+  .publish-section {
+    height: 180px;
+    padding: 0 70px;
+    
+    .col-9{
+      line-height: 0;
+    }
+
+    h2 {
+      font-size: 50px;
+      color: #fff;
+      font-weight: bolder;
+    }
+
+    span {
+      font-size: 20px;
+      color: #fff;
+      font-style: italic;
+    }
+
+    .col{
+      text-align: right;
+    }
+    button {
+      width: 15.5rem;
+      height: 3rem;
+      background: #f2fcf7;
+      color: #000;
+      border-radius: 10px;
+      margin-right: 10px;
+    }
+  }
+}

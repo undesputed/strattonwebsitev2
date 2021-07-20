@@ -1,0 +1,63 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./contactHeader.scss";
+@import "./banner.scss";
+@import "./publish.scss";
+@import "./learnmore.scss";
+@import "./awards.scss";
+@import "./spotlight.scss";
+
+@font-face {
+  font-family: "NexaSlabW01-Black";
+  src: url("//db.onlinewebfonts.com/t/81b54c4e1d22eaaf275c95062ae9e45c.eot");
+  src: url("//db.onlinewebfonts.com/t/81b54c4e1d22eaaf275c95062ae9e45c.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/81b54c4e1d22eaaf275c95062ae9e45c.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/81b54c4e1d22eaaf275c95062ae9e45c.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/81b54c4e1d22eaaf275c95062ae9e45c.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/81b54c4e1d22eaaf275c95062ae9e45c.svg#NexaSlabW01-Black")
+      format("svg");
+}
+
+.navbar {
+  height: 7.5rem;
+  // margin-bottom: 3rem;
+  padding-top: 1rem;
+  background: #fefbea !important;
+
+  .logo-img {
+    height: 100px;
+  }
+
+  .nav-item .nav-link {
+    text-indent: 3px;
+    color: #1c4f5c !important;
+  }
+
+  .navbar-section {
+    margin: 0 80px;
+  }
+
+  .my-dropdown-toggle::after {
+    content: none;
+  }
+
+  .my-dropdown-toggle {
+    /* border: none;
+        align-items: center;
+        width: 50px;
+        padding:5px 25px;
+        margin-left: 5px;
+        padding-left: 5px !important; */
+    background: transparent !important;
+    border: none;
+  }
+
+  .profile {
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-right: 10px;
+  }
+}

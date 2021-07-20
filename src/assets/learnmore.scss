@@ -1,0 +1,62 @@
+.learnmore {
+    background: #fefbea;
+
+    .learnmore-section {
+        padding: 5rem 0;
+    }
+
+    .about-us {
+        font-size: 30px;
+        border: block;
+        padding: 0 70px;
+
+        label {
+            font-size: 35px;
+            text-transform: uppercase;
+            margin: 20px auto !important;
+            font-weight: 600;
+            display: block;
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+            padding-bottom: 20px;
+            font-size: 20px;
+        }
+
+        button {
+            height: 50px;
+            width: 100%;
+            border-radius: 15px;
+            margin-top: auto;
+        }
+
+        .btn-success {
+            background-color: #78a48d;
+            border: none;
+        }
+        
+        .btn-warning {
+            background-color: #d39a58;
+            border: none;
+        }
+
+        .btn-primary {
+            border: none;
+            background-color: #fe9580;
+        }
+
+        img{
+            height: 25%;
+            align-self: center;
+        }
+
+        .col {
+            margin: auto 10px;
+            display: flex;
+            height: 30rem;
+            flex-direction: column;
+        }
+    }
+}
